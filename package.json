@@ -1,0 +1,32 @@
+{
+  "name": "graphql-with-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node main.js",
+    "prod": "webpack-cli --mode production"
+  },
+  "keywords": [],
+  "author":{
+    "name":"Heritier Kinke",
+    "email":"modesteheritier@gmail.com",
+    "url":"https://twitter.com/Ckinkabher"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
